@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-lg p-2">
+      <div class="container-fluid p-0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navbar-brand fw-bold" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Team
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav">
+              <li>
+                <button class="btn btn-primary rounded-pill me-2">New User <i
+                    class="fa-solid fa-plus fs-6"></i></button>
+              </li>
+              <li>
+                <button class="btn btn-light rounded-pill light-border me-2"><i class="fa-regular fa-bell"></i></button>
+              </li>
+              <li>
+                <button class="btn btn-light rounded-pill light-border me-2"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+              </li>
+              <li>
+                <img class="rounded-circle me-2 user-avatar" src="user.jpg" alt="User Avatar">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex my-2 mb-4">
+        <button class="btn btn-white rounded-pill me-2 fw-bold border">Filter users <i
+            class="fa-solid fa-caret-down color-slate-gray mx-2"></i></button>
+        <form class="d-flex">
+          <div class="input-group rounded-pill">
+            <input class="form-control rounded-pill" type="search" placeholder="Try 'Miami beachhouse'"
+              aria-label="Search" style="padding-right: 40px;" />
+            <span class="input-group-text bg-transparent border-0 position-absolute"
+              style="right: 10px; top: 50%; transform: translateY(-50%);">
+              <i class="fa-solid fa-magnifying-glass color-slate-gray"></i>
+            </span>
+          </div>
+        </form>
+      </div>
+      <div>
+        <button class="btn btn-white dropdown-toggle rounded-pill me-2 border">Sort by Date</button>
+        <button class="btn btn-white rounded-pill fs-5"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </div>
+  </div>
+</div>

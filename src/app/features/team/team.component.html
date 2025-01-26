@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="row bg-light p-4">
+      <div class="col-md-3 col-sm-1 col-lg-3 mb-4" *ngFor="let user of users">
+        <div class="card shadow-sm text-center">
+          <img [src]="user.image" class="card-img-top rounded-circle mx-auto mt-3 user-avatar" alt="User photo">
+          <div class="card-body">
+            <h5 class="card-title">{{ user.name }}</h5>
+            <p class="card-text text-muted fw-lighter">Product Manager</p>
+            <div class="d-flex justify-content-evenly mt-3">
+              <div class="card p-2 border-0">
+                <span class="fw-lighter">Projects</span>
+                <span class="fw-normal">{{ user.projects }}</span>
+              </div>
+              <div class="card p-2 border-0">
+                <span class="fw-lighter">Tasks</span>
+                <span class="fw-normal">{{ user.tasks }}</span>
+              </div>
+              <div class="card p-2 border-0">
+                <span class="fw-lighter">Insights</span>
+                <span class="fw-normal">{{ user.insights }}</span>
+              </div>
+            </div>
+            <a href="#" class="btn btn-white mt-4 rounded-pill fw-bold light-border">View Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

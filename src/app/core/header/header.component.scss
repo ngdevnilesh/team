@@ -1,0 +1,25 @@
+.navbar {
+  .user-avatar {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.input-group {
+  .search-icon {
+    background: transparent;
+    border: 0;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.container-fluid {
+  padding-left: 30px;
+  padding-top: 10px;
+}
